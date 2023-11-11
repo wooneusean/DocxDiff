@@ -55,6 +55,7 @@ namespace DocxDiff
         public bool IsItalic { get; set; } = false;
         public bool IsUnderlined { get; set; } = false;
         public string Color { get; set; } = "";
+        public string Text { get; set; } = "";
 
         public WordParagraphRange(XmlNode rangeNode)
         {
